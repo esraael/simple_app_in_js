@@ -1,0 +1,199 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 80%;
+  margin: auto;
+}
+header{
+  height: 70px;
+  background-color: gray;
+  padding: 10px 0px;
+}
+.header_content{
+  display: flex;
+  justify-content: space-between;
+}
+.header_content .brand{
+  text-decoration: none;
+  font-size: 32px;
+  color: #fff ;
+}
+nav ul{
+  display: flex;
+  list-style: none;
+}
+nav li a:hover{
+  opacity: 0.6;
+}
+nav li a{
+  display: block;
+  color: #fff;
+  min-width: 80px;
+  padding: 5px;
+  margin: 0px 5px;
+  font-size: 23px;
+
+}
+/* ----------------------form------------------ */
+.section_form{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% ,-50%);
+  width: 45%;
+  text-align: center;
+  background-color: green;
+  padding: 20px;
+}
+.section_form h2{
+  font-size: 50px;
+  letter-spacing: 2px;
+  color: purple;
+}
+.section_form form input{
+  width: 100%;
+  display: block;
+  margin: 5px 0px;
+  height: 30px;
+  border: ipx solid #ddd ;
+  padding: 5px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  outline: none;
+}
+.section_form form input[type="submit"]:hover{
+  opacity: 0.5;
+}
+nav ul#user_info{
+  display: none;
+}
+/* ----------------------------------------------- */
+.product{
+  width: 60%;
+  margin: 10px 0px;
+  margin-top: 50px;
+}
+.product_item{
+  display: flex;
+  /* justify-content: space-between; */
+  width: 100%;
+  border: 1px solid #ddd;
+  min-height: 150px;
+  margin-bottom: 20px;
+  margin-left: 100px;
+}
+.home_img{
+  width: 30%;
+  margin-right: 10px;
+}
+.item_action{
+  flex: 1;
+  text-align: right;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.product_item .add_to_cart{
+  display: block;
+  margin-left: auto;
+  background-color: green;
+  color: #fff;
+  padding: 10px 20px;
+  border:0 ;
+  font-size: 17px;
+  cursor: pointer;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.product_item .fav{
+  cursor: pointer;
+  display: block;
+  width: 20px;
+  font-size: 20px;
+  margin-left: auto;
+
+}
+/* ------------------------------------------------------------------------ */
+nav ul#user_info li i{
+  color: #fff;
+  font-size: 25px;
+  cursor: pointer;
+
+}
+nav ul#user_info li{
+  margin:0px 10px ;
+  position: relative;
+}
+nav ul#user_info li .badge{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  color: white;
+  text-align: center;
+  display: block;
+  border-radius: 50%;
+  top: -10px;
+  right: -10px;
+  font-size: 10px;
+  display: none;
+}
+.carts_products{
+  position: absolute;
+  width: 210px;
+  transform: translate(-40px ,0);
+  background-color: #eaeaea;
+  top: 56px;
+  padding: 10px;
+  border: 1px solid green;
+  display: none;
+}
+.carts_products a{
+  display:block ;
+  margin: 4px 0;
+  padding: 0;
+  text-align: center;
+  background-color: green;
+  color: white;
+  text-decoration: none;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
